@@ -16,5 +16,8 @@ The respective classes are listed as follows:
 <p align="center">
     <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/wisteria.jpg" 
     width = 300 height = 300>
-    Wisteria
+</p>
+
+<p align="center">
+<b>Wisteria</b>
 </p>
