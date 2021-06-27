@@ -13,6 +13,10 @@ While we are constantly being told that more greenery and plants are beneficial,
 
 ## What it does
 
+
+As you walk around, our app detects and notifies you if it finds any invasive plants in its camera feed. The 4 invasive plants our app detects for are the Japanese Barberry, Japanese Honeysuckle, Wisteria, and Purple Loosestrife. If the app can’t find any invasive plants in the current frame, it simply says “Non Invasive.” This allows anybody who cares about the cause to go into the wild and find invasive plants to remove!
+
+
 ## How we built it
 
 In order to perform machine learning tasks, you need data. Because this problem hasn’t been solved or addressed before by AI, there were no pre-made datasets for us so we had to manually search up invasive plants on Google Images and scrape the results. Not all of the images were good or nice data, so we had to manually go through each of the about 5,000 images we collected and delete those that wouldn’t help in training the model. In the end, we ended up with around 2,000 images for training. 
