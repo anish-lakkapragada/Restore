@@ -13,34 +13,34 @@ Invasive species of plant are a potent threat to natural environments, ecosystem
 
 Our model was trained to detect 5 classes, with many more to come in the future.
 The respective classes are listed as follows: 
-<p align="center">
+<p>
     <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/wisteria.jpg" 
     width = 300 height = 300>
 </p>
 
-<p align="center">
+<p>
 <b>Wisteria</b>
 </p>
 
-<p align="center">
+<p>
     <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/purple-loosestrife.jpg" 
     width = 300 height = 300>
 </p>
 
-<p align="center">
+<p>
 <b>Purple Loosestrife</b>
 </p>
 
-<p align="center">
+<p>
     <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-honeysuckle.jpg" 
     width = 300 height = 300>
 </p>
 
-<p align="center">
+<p>
 <b>Japanese Honeysuckle</b>
 </p>
 
-<p align="center">
+<p>
     <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-barberry.jpg" 
     width = 300 height = 300>
 </p>
