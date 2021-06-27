@@ -4,7 +4,7 @@ Invasive species of plant are a potent threat to natural environments, ecosystem
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/78002988/123529931-1fba0080-d6aa-11eb-9688-4f5eff6cdc39.jpg" 
-    width = 512 height = 512>
+    width = 256 height = 256>
 </p>
 
 ## Set Up
