@@ -21,3 +21,39 @@ The respective classes are listed as follows:
 <p align="center">
 <b>Wisteria</b>
 </p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/purple-loosestrife.jpg" 
+    width = 300 height = 300>
+</p>
+
+<p align="center">
+<b>Purple Loosestrife</b>
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-honeysuckle.jpg" 
+    width = 300 height = 300>
+</p>
+
+<p align="center">
+<b>Japanese Honeysuckle</b>
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-barberry.jpg" 
+    width = 300 height = 300>
+</p>
+
+<p align="center">
+<b>Japanese Barberry</b>
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/noninvasive.jpg" 
+    width = 300 height = 300>
+</p>
+
+<p align="center">
+<b>Non-invasive</b>
+</p>
