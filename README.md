@@ -13,30 +13,49 @@ Invasive species of plant are a potent threat to natural environments, ecosystem
 
 Our model was trained to detect 5 classes, with many more to come in the future.
 The respective classes are listed as follows: 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/wisteria.jpg" 
+    width = 300 height = 300>
+</p>
 
-<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/wisteria.jpg" 
-    width = 30 height = 30>
-
+<p align="center">
 <b>Wisteria</b>
+</p>
 
-<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/purple-loosestrife.jpg" 
-    width = 30 height = 30>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/purple-loosestrife.jpg" 
+    width = 300 height = 300>
+</p>
 
+<p align="center">
 <b>Purple Loosestrife</b>
+</p>
 
-<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-honeysuckle.jpg" 
-    width = 30 height = 30>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-honeysuckle.jpg" 
+    width = 300 height = 300>
+</p>
 
+<p align="center">
 <b>Japanese Honeysuckle</b>
+</p>
 
-<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-barberry.jpg" 
-    width = 30 height = 30>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-barberry.jpg" 
+    width = 300 height = 300>
+</p>
 
+<p align="center">
 <b>Japanese Barberry</b>
+</p>
 
-<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/noninvasive.jpg" 
-    width = 30 height = 30>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/noninvasive.jpg" 
+    width = 300 height = 300>
+</p>
 
+<p align="center">
 <b>Non-invasive</b>
+</p>
 
 On the dataset as a whole, our model was able to obtain <b>91.4%</b> raw accuracy on the validation set as reported by the CreateML framework. 
