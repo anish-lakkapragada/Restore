@@ -57,3 +57,5 @@ The respective classes are listed as follows:
 <p align="center">
 <b>Non-invasive</b>
 </p>
+
+On the dataset as a whole, our model was able to obtain <b>91.4%</b> raw accuracy on the validation set as reported by the CreateML framework. 
