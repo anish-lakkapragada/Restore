@@ -59,5 +59,8 @@ The respective classes are listed as follows:
 </p>
 
 On the dataset as a whole, our model was able to obtain <b>91.4%</b> raw accuracy on the validation set as reported by the CreateML framework. 
-<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/create-ml-stats" 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/create-ml-stats.png" 
 width = 300 height = 300>
+</p>
