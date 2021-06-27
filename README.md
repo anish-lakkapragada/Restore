@@ -9,39 +9,38 @@ Invasive plants are a potent threat to natural environments, ecosystems, and bio
 
 ## Inspiration
 
-While we are constantly being told that more greenery and plants are beneficial, we were surprised to hear that some plants (i.e. invasive plants) are actually detrimental to the environment. Not too long after that we learned that this was the case, we saw a demonstration at the Worldwide Developers Conference (WWDC) of flower detection using Apple’s CreateML framework. When we got the idea that AI could potentially detect invasive plants, we were instantly motivated to pursue it. No one, prior to the Restore team, has explored using AI in invasive species detection.
+While we are constantly being told that more greenery and plants are beneficial, we were surprised to hear that some plants (i.e. invasive plants) are in fact detrimental to the environment. Not too long after we learned that this was the case, we saw a demonstration from the Worldwide Developers Conference (WWDC) of flower detection using Apple’s CreateML framework. When we got the idea that AI could potentially detect invasive plants, we were instantly motivated to pursue it. No one, prior to the Restore team, has explored using AI in invasive species detection.
 
 ## What it does
 
-
-As you walk around, our app detects and notifies you if it finds any invasive plants in its camera feed. The 4 invasive plants our app detects for are the Japanese Barberry, Japanese Honeysuckle, Wisteria, and Purple Loosestrife. If the app can’t find any invasive plants in the current frame, it simply says “Non Invasive.” This allows anybody who cares about the cause to go into the wild and find invasive plants to remove!
-
+As you walk around, our model detects and notifies you if it finds any invasive plants in its camera feed. The 4 invasive plants our model detects for are the Japanese Barberry, Japanese Honeysuckle, Wisteria, and Purple Loosestrife. If the model can’t find any invasive plants in the current frame, it simply outputs “Non Invasive.” We plan to implement the model into an app so that  anybody who cares about the cause can go into the wild and search for invasive plants to remove!
 
 ## How we built it
 
-In order to perform machine learning tasks, you need data. Because this problem hasn’t been solved or addressed before by AI, there were no pre-made datasets for us so we had to manually search up invasive plants on Google Images and scrape the results. Not all of the images were good or nice data, so we had to manually go through each of the about 5,000 images we collected and delete those that wouldn’t help in training the model. In the end, we ended up with around 2,000 images for training. 
+In order to perform machine learning tasks, you need data. Because this problem hasn’t been solved or addressed before by AI, there were no pre-made datasets for us so we had to manually search up invasive plants on Google Images and scrape the results. Not all of the images were of high-quality, so we had to manually curate each of the roughly 5,000 images we collected and delete those that wouldn’t help in training the model. In the end, we ended up with around 2,000 images for training. 
 
-We then used Apple’s CreateML format for us to train a model that could be used later in our app for iOS development. After doing this several times and experimenting with image augmentations we were able to achieve **91.4% validation accuracy** on detecting 4 of the most widespread invasive plants in the US. 
+We then used Microsoft’s Lobe platform for us to train a model that could be used later After doing this several times we were able to achieve **88% accuracy** on detecting 4 of the most widespread invasive plants in the US. 
 
 ## Challenges we ran into
 
-We were both fairly fluent in machine learning, but none of us ever had much experience at all with using Swift, CreateML, and CoreML to create iOS apps. We extensively relied on tutorials and web searches in order to figure out how we could create a real-time detection system that could take in an image, send a request to the model we created, and then show the predictions to the user. However, because most of these tutorials were old, they wouldn’t work with our current setup so we actually needed to create a virtual machine using Virtual Box to download a lower version of XCode to create our app!
-
-We also ran into some challenges with model training. For instance, because our data was from Google Images it wasn’t of the highest quality, so when we first started training we were at 74% accuracy. However, through more and more manual cleaning of the data, and image augmentations, we were able to reach 84%, 87%, and eventually 91% with the CreateML platform. 
+We ran into a lot of challenges with model training. For instance, because our data was from Google Images it wasn’t of the highest quality, so when we first started training we were at 74% accuracy. However, through more and more manual cleaning of the data, and image augmentations, we were able to reach 74%, 85%, and finally 88% accuracy on detecting invasive species. 
 
 ## Accomplishments that we're proud of
 
-We are very proud of the fact that we were able to create a full-fledged app in Swift that can detect invasive species despite not knowing much Swift prior of Citro Hacks. We’re also super pumped about the fact that we have reached 91.4% accuracy in our dataset. 
+
+We are very proud of the fact that we were able to achieve 88% accuracy on this completely unexplored, novel task of detecting invasive species, with no pre-made datasets. 
 
 ## What we learned
 
-We learned that in fast, deadlined environments like hackathons, you have to be okay with using duct tape solutions. When none of the tutorials for building models with XCode worked because they were older and not up-to-date with XCode12, we decided to take a very convoluted approach - we created a virtual machine to then download a later version of XCode so we could create our app with help from the tutorials. 
+We also learnt to be persistent. We first started off at a mere 75% accuracy, but then with a little bit of patience we decided to manually take 2 hours to clean up our data which eventually led to 91% accuracy. We were unsure in those 2 hours whether our hard work would pay off, and we learned at the end that if you want something to work its best to believe that it will work. 
 
-We also learnt to be persistent. We first started off at a mere 75% accuracy, but then with a little bit of patience we decided to manually take 2 hours to clean up our data which eventually led to 91% accuracy. We were unsure in those 2 hours whether our hard work would pay off, and we learnt at the end that if you want something to work its best to believe that it will work. 
+We also got a rude awakening that it really is true that 80% of your time is found on finding data, good data, and only 20% of the time is found on your model. This gave us more insight into what it would be like to be a real data scientist in today’s messy world. 
 
 ## What's next for Restore
 
-Restore has a lot of things that can be done going forward. One thing we plan to look at is increasing the number of invasive plants Restore can detect and also making Restore also work on Android and other non-iOS platforms. 
+Restore has a lot of things that can be done going forward. One thing we plan to look at is increasing the number of invasive plants Restore can detect and also making an app so our model can be used by anyone who wants to remove invasive plants. 
+
+
 
 
 
