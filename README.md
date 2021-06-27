@@ -24,7 +24,7 @@ The respective classes are listed as follows:
     <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/purple-loosestrife.jpg" 
     width = 300 height = 300>
 </p>
-x
+
 <p align="center">
 <b>Purple Loosestrife</b>
 </p>
