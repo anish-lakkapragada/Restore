@@ -15,27 +15,27 @@ Our model was trained to detect 5 classes, with many more to come in the future.
 The respective classes are listed as follows: 
 
 <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/wisteria.jpg" 
-    width = 300 height = 300>
+    width = 30 height = 30>
 
 <b>Wisteria</b>
 
 <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/purple-loosestrife.jpg" 
-    width = 300 height = 300>
+    width = 30 height = 30>
 
 <b>Purple Loosestrife</b>
 
 <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-honeysuckle.jpg" 
-    width = 300 height = 300>
+    width = 30 height = 30>
 
 <b>Japanese Honeysuckle</b>
 
 <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/japanese-barberry.jpg" 
-    width = 300 height = 300>
+    width = 30 height = 30>
 
 <b>Japanese Barberry</b>
 
 <img src="https://raw.githubusercontent.com/anish-lakkapragada/Restore/main/images/noninvasive.jpg" 
-    width = 300 height = 300>
+    width = 30 height = 30>
 
 <b>Non-invasive</b>
 
